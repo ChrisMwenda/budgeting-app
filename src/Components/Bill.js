@@ -1,6 +1,9 @@
-import React,{useEffect} from "react";
+import React from "react";
 
 function Bill({bill,search}){
+  function handleDelete(){
+    fetch("http://localhost:3000/bills/", {method: "DELETE",})
+  }
 
    const billInfo = bill
           .filter((searchItem) => {
@@ -17,7 +20,7 @@ function Bill({bill,search}){
                 <button
                   className="removeButton"
                   onClick={()=>{
-                    fetch("http://localhost:3000/bills" , {
+                    fetch("http://localhost:3000/bills", {
                       method: "DELETE",
                     });
                   }}
@@ -28,7 +31,7 @@ function Bill({bill,search}){
             );
           });
       
-        return <React.Fragment className="billInfo">{billInfo}</React.Fragment>;
+        return <React.Fragment>{billInfo}</React.Fragment>;
        }
 
 export default Bill;

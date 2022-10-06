@@ -20,3 +20,20 @@ Technologies
 1. React js 
 2. JavaScript
 3. CSS
+
+
+
+To get started with this you will need:
+1. Node Js
+2. Basic understanding of react
+
+  
+Installation:
+
+    Clone the repo with command: 
+
+    git clone https://github.com/ChrisMwenda/budgeting-app.git
+
+    Install NPM packages with command: 
+
+    npm install

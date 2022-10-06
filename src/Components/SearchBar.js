@@ -9,7 +9,6 @@ function SearchBar({search, setSearch}) {
         placeholder="Search your Recent Transactions"
         onChange={(e) => {
           setSearch(e.target.value);
-
           console.log(search);
         }}
       />
