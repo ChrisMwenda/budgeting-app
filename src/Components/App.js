@@ -1,13 +1,13 @@
 
 import React from "react";
 import MainContainer from "./MainContainer";
-import Logo from './logo';
+// import { ReactComponent as Logo } from './logo.svg';
 
 
 function App() {
       return (
       <div className="App">
-       <Logo/>
+       {/* <Logo/> */}
         <MainContainer></MainContainer>
       </div>
   );
