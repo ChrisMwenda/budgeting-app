@@ -19,16 +19,17 @@
       "amount": "1200"
     },
     {
-      "id": 4,
-      "title": "Zuku",
-      "date": "2021-10-07",
-      "amount": "3000"
+      "bills": {},
+      "title": "Water Bill",
+      "date": "2022-10-10",
+      "amount": "500.00",
+      "id": 4
     },
     {
       "bills": {},
-      "title": "Water Bill",
-      "date": "2022-10-04",
-      "amount": "500",
+      "title": "Zuku Wifi",
+      "date": "2022-10-09",
+      "amount": "4000",
       "id": 5
     }
   ]
