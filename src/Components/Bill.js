@@ -11,10 +11,8 @@ function Bill({bill,search}){
           .map((trnsct) => {
             return (
               <tr key={trnsct.id}>
-                <td>{trnsct.title}</td>
-                <td>{trnsct.allDay}</td>
-                <td>{trnsct.start}</td>
-                <td>{trnsct.end}</td>
+                <td >{trnsct.title}</td>
+                <td>{trnsct.date}</td>
                 <td> {trnsct.amount}</td>
                 <button
                   className="ui button"
