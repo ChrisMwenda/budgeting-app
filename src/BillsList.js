@@ -1,25 +1,38 @@
-import React from "react"
+import React, { useEffect, useState } from "react";
 import App from "./App"
+import Bill from "./Bill";
 
-function BillsList(){
+function BillsList({search}){
+  const[bill,setBill]=useState("")
+
+useEffect(() => {
+  fetch("http://localhost:3000/bills")
+    .then((res) => res.json())
+    .then((data) => {
+      setBill(data);
+    });
+}, [Bill]);
 return(
 <table className="ui celled striped padded table" style={{alignContent:"center"}}>
       <tbody>
         <tr>
           <th>
-            <h3 className="ui center aligned header" style={{margin:"30px"}}>Date </h3>
+            <h3 className="ui center aligned header" style={{margin:"30px"}}>Title </h3>
           </th>
           <th>
-            <h3 className="ui center aligned header"style={{margin:"30px"}}>Description</h3>
+            <h3 className="ui center aligned header"style={{margin:"30px"}}>All Day</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header"style={{margin:"30px"}}>Category</h3>
+            <h3 className="ui center aligned header"style={{margin:"30px"}}>Start</h3>
+          </th>
+          <th>
+            <h3 className="ui center aligned header"style={{margin:"30px"}}>End</h3>
           </th>
           <th>
             <h3 className="ui center aligned header" style={{margin:"30px"}}>Amount</h3>
           </th>
         </tr>
-        {/* {transaction && <Transaction transaction={transaction} search={search} />} */}
+        {bill && <Bill bill={bill} search={search}/>}
       </tbody>
     </table>
 )
