@@ -25,7 +25,7 @@ function Bill({bill,search}){
                     });
                   }}
                 >
-                  Remove
+                  Delete
                 </button>
               </tr>
             );

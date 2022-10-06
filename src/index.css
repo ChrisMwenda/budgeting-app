@@ -34,6 +34,7 @@ color:#026995;
 
 .inputFields{
   margin-top: 15px;
+  margin: 8px;
   border-radius: 5px;
   border-color:#026995;
   color: #026995;
@@ -46,9 +47,15 @@ color:#026995;
   color:#ffffff;
   background-color: #026995;
   border-color:#ffffff;
-padding-left:12px;
-padding-right:12px;
+padding-left:20px;
+padding-right:20px;
 padding: 5px;
+}
+.AddBillBtn:hover{
+ cursor: pointer;
+ padding:10px;
+ color: aqua;
+ background-color: #026995;
 }
 
 .TableHeaderRow{
@@ -72,5 +79,10 @@ padding: 5px;
 padding-left:8px;
 padding-right:8px;
 padding: 5px;
+}
+
+.removeButton:hover{
+cursor: pointer;
+padding:7px;
 }
 
