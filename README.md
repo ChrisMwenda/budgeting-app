@@ -37,3 +37,6 @@ Installation:
     Install NPM packages with command: 
 
     npm install
+
+Bugs:
+The delete button works effectively in the background, effectively deleting the item from the array in the db.json, however it only reflects on the client view after refreshing. 
