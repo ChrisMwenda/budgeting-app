@@ -34,8 +34,8 @@ function MainContainer(){
     const [allBills, setAllBills] = useState(bills);
   
     function handleAddBill() {
-        setNewBills(newBills)
-        console.log(newBills)
+        setAllBills([...allBills,newBills])
+        console.log(allBills)
         fetch("http://localhost:3000/bills", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
