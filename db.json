@@ -8,9 +8,9 @@
     },
     {
       "id": 2,
-      " title": "Rent",
+      "title": "Rent",
       "date": "2021-05-07",
-      " amount": "29000"
+      "amount": "29000"
     },
     {
       "id": 3,
@@ -25,21 +25,11 @@
       "amount": "3000"
     },
     {
+      "bills": {},
       "title": "Water Bill",
-      "allDay": true,
-      "start": "",
-      "end": "",
+      "date": "2022-10-04",
       "amount": "500",
-      "date": "2022-10-18",
       "id": 5
-    },
-    {
-      "title": "",
-      "allDay": true,
-      "start": "",
-      "end": "",
-      "amount": "",
-      "id": 6
     }
   ]
 }

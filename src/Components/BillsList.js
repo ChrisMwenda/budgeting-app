@@ -12,7 +12,7 @@ useEffect(() => {
     });
 }, []);
 return(
-<table className="ui celled striped padded table" style={{alignContent:"center"}}>
+<table className="paddedtable">
       <tbody>
         <tr>
           <th>

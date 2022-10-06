@@ -22,19 +22,51 @@ color:#026995;
 }
 
 .tableHeader{
-  color:#026995;
+  background-color:#026995;
+  color:#ffffff;
+  padding-left: 15px;
+  padding-right: 15px;border-radius: 3px;
+
 }
 
 .inputFields{
-  border-radius: 15px;
-  border-color:aquamarine;
+  margin-top: 15px;
+  border-radius: 5px;
+  border-color:#026995;
   color: #026995;
 }
 
 .AddBillBtn{
-  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: 8px;
+  border-radius: 10px;
   color:#ffffff;
   background-color: #026995;
   border-color:#ffffff;
+padding-left:8px;
+padding-right:8px;
+padding: 5px;
+}
 
+.TableHeaderRow{
+  background-color: #026995;
+}
+
+.paddedtable{
+  align-content:"center";
+  margin-left: 400px;
+}
+.billInfo{
+  color:#002839
+}
+.removeButton{
+  margin-top: 15px;
+  margin-left: 8px;
+  border-radius: 10px;
+  color:#ffffff;
+  background-color: #dc4231;
+  border-color:#ffffff;
+padding-left:8px;
+padding-right:8px;
+padding: 5px;
 }

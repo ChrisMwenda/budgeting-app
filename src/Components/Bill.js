@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 function Bill({bill,search}){
 
@@ -15,9 +15,9 @@ function Bill({bill,search}){
                 <td>{trnsct.date}</td>
                 <td> {trnsct.amount}</td>
                 <button
-                  className="ui button"
+                  className="removeButton"
                   onClick={()=>{
-                    fetch("http://localhost:3000/bills" + trnsct.id, {
+                    fetch("http://localhost:3000/bills" , {
                       method: "DELETE",
                     });
                   }}
@@ -28,7 +28,7 @@ function Bill({bill,search}){
             );
           });
       
-        return <React.Fragment>{billInfo}</React.Fragment>;
+        return <React.Fragment className="billInfo">{billInfo}</React.Fragment>;
        }
 
 export default Bill;
