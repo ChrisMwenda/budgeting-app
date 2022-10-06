@@ -1,7 +1,7 @@
 
 import React from "react";
 import MainContainer from "./MainContainer";
-import logo from "./logo.svg"
+import logo from "../logo.svg"
 
 
 function App() {
