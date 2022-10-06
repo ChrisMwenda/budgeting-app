@@ -1,0 +1,50 @@
+{
+  "bills": [
+    {
+      "id": 1,
+      "title": "Netflix",
+      "allDay": true,
+      "start": "new Date(2021, 6, 0)",
+      " end": "new Date(2021, 6, 0)",
+      "  amount": "1500"
+    },
+    {
+      "id": 2,
+      " title": "Rent",
+      " allDay": true,
+      "start": "new Date(2021, 6, 7)",
+      "end": "new Date(2021, 6,7)",
+      " amount": "29000"
+    },
+    {
+      "id": 3,
+      " title": "Power Bill",
+      "allDay": true,
+      "start": "new Date(2021, 6, 20)",
+      " end": "new Date(2021, 6, 20)",
+      " amount": "1200"
+    },
+    {
+      "newBills": {
+        "title": "Zuku",
+        "allDay": true,
+        "start": "2022-09-29T21:00:00.000Z",
+        "end": "2022-09-30T21:00:00.000Z",
+        "amount": ""
+      },
+      "id": 4
+    },
+    {
+      "allBills": {},
+      "id": 5
+    },
+    {
+      "title": "Faiba",
+      "allDay": true,
+      "start": "2022-09-29T21:00:00.000Z",
+      "end": "2022-09-29T21:00:00.000Z",
+      "amount": "",
+      "id": 6
+    }
+  ]
+}
