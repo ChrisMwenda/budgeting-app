@@ -16,6 +16,7 @@ code {
 .App {
   text-align: center;
   font-family:lato;
+  
 }
 .MainHeader {
 color:#026995;
@@ -24,9 +25,11 @@ color:#026995;
 .tableHeader{
   background-color:#026995;
   color:#ffffff;
-  padding-left: 15px;
-  padding-right: 15px;border-radius: 3px;
-
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 3px;
 }
 
 .inputFields{
