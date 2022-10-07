@@ -8,7 +8,7 @@ import AddBill from "./AddBill";
 function MainContainer(){
 
   // fetch bills from the database
-const bills = fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills/")
+const bills = fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/db")
 .then((response)=>response.json())
 .then((data)=>(console.log(data)))
 

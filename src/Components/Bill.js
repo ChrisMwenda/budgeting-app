@@ -16,7 +16,7 @@ function Bill({bill,search}){
                 <button
                   className="removeButton"
                   onClick={()=>{
-                    fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills/" + trnsct.id,{
+                    fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/db" + trnsct.id,{
                       method: "DELETE",
                     });
                   }}
