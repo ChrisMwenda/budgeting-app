@@ -4,7 +4,7 @@ function AddBill({newBills,setNewBills,}){
 function handleAddBill() {
             setNewBills(newBills)
             console.log(newBills)
-            fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills/", {
+            fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(newBills),

@@ -25,6 +25,11 @@
       "date": "2022-10-09",
       "amount": "4000",
       "id": 5
+    },
+    {
+      "bills": {},
+      "title": "Loan Repayment",
+      "id": 6
     }
   ]
 }
