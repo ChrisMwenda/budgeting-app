@@ -1,11 +1,7 @@
 import React from "react";
 
 function Bill({bill,search}){
-  function handleDelete(){
-    fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills", {method: "DELETE",})
-  }
-
-   const billInfo = bill
+  const billInfo = bill
           .filter((searchItem) => {
             //if search=== ""{ return searchItem}//
             //else searchItem.description//
