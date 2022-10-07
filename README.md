@@ -38,5 +38,11 @@ Installation:
 
     npm install
 
+ To launch:
+  1. Mock DB: 
+  npx json-server --watch db.json
+  2. See live view:
+  npm start
+
 Bugs:
 The delete button works effectively in the background, effectively deleting the item from the array in the db.json, however it only reflects on the client view after refreshing. 
