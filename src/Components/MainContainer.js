@@ -6,10 +6,12 @@ import AddBill from "./AddBill";
   
 // Function Component
 function MainContainer(){
+
   // fetch bills from the database
 const bills = fetch("http://localhost:3000/bills")
 .then((response)=>response.json())
 .then((data)=>(console.log(data)))
+
   console.log(bills);
     const [newBills, setNewBills] = useState({bills});
     console.log(newBills);
