@@ -2,7 +2,7 @@ import React from "react";
 
 function Bill({bill,search}){
   function handleDelete(){
-    fetch("http://localhost:3000/bills/", {method: "DELETE",})
+    fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills/", {method: "DELETE",})
   }
 
    const billInfo = bill
@@ -20,7 +20,7 @@ function Bill({bill,search}){
                 <button
                   className="removeButton"
                   onClick={()=>{
-                    fetch("https://localhost:3000/bills/" + trnsct.id,{
+                    fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills/" + trnsct.id,{
                       method: "DELETE",
                     });
                   }}

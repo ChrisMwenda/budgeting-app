@@ -5,7 +5,7 @@ function BillsList({search}){
   const[bill,setBill]=useState("")
 
 useEffect(() => {
-  fetch("https://localhost:3000/bills")
+  fetch("https://my-json-server.typicode.com/ChrisMwenda/Budgeting-app-db/bills/")
     .then((res) => res.json())
     .then((data) => {
       setBill(data);
