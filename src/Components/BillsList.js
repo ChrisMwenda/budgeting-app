@@ -5,7 +5,7 @@ function BillsList({search}){
   const[bill,setBill]=useState("")
 
 useEffect(() => {
-  fetch("http://localhost:3000/bills")
+  fetch("https://localhost:3000/bills")
     .then((res) => res.json())
     .then((data) => {
       setBill(data);

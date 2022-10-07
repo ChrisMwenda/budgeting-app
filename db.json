@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "id": 1,
-      "title": "Netflix",
-      "date": "2021-08-07",
-      "amount": "1500"
-    },
-    {
       "id": 2,
       "title": "Rent",
       "date": "2021-05-07",

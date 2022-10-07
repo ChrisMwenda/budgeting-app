@@ -4,7 +4,7 @@ function AddBill({newBills,setNewBills,}){
 function handleAddBill() {
             setNewBills(newBills)
             console.log(newBills)
-            fetch("http://localhost:3000/bills", {
+            fetch("https://localhost:3000/bills", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(newBills),

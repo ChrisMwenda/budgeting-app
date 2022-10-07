@@ -20,7 +20,7 @@ function Bill({bill,search}){
                 <button
                   className="removeButton"
                   onClick={()=>{
-                    fetch("http://localhost:3000/bills/" + trnsct.id,{
+                    fetch("https://localhost:3000/bills/" + trnsct.id,{
                       method: "DELETE",
                     });
                   }}
